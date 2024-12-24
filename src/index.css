@@ -1,13 +1,147 @@
-body {
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:regular,bold,italic&subset=latin,latin-ext');
+
+/* basic styles */
+*{
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: "Source+Sans+Pro";
+  color: #333;
+}
+.blog-list :hover{
+  border: 1px solid wheat;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.navbar {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  max-width: 600px;
+  margin: 0 auto;
+  border-bottom: 1px solid #f2f2f2;
+}
+.navbar h1{
+  color: #f1356d;
+}
+.navbar .links {
+  margin-left: auto;
+}
+.navbar a{
+   margin-left: 16px;
+   text-decoration: none;
+   padding: 6px;
+}
+.navbar a:hover {
+  color: #1717e9;
+}
+.content {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20x;
+}
+.blog-list {
+  color: #f1356d;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 40px auto;
+  padding-left: 2%;
+
+
+}
+.blog-preview h2{
+  color: #f1356d;
+}
+.blog-preview h2:hover{
+  color: blue;
+}
+.blog-preview button {
+  color: #f2f2f2;
+  background-color: #333;
+}
+.blog-preview a{
+  text-decoration: none;
+}
+
+/* blog details page  */
+.blog-details h2 {
+  font-size: 20px;
+  color: #f1356d;
+  margin-bottom: 10px;
+}
+.blog-details div {
+  margin: 20px 0;
+}
+.blog-details button{
+  background: #f1356d;
+  color: #fff;
+  border: 0;
+  padding: 8px;
+  cursor: pointer;
+}
+
+/* create new blog form  */
+.create {
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+}
+.create label {
+  text-align: left;
+  display: block;
+}
+.create h2 {
+  font-size: 20px;
+  color: #f1356d;
+  margin-bottom: 30px;
+}
+.create input, .create textarea, .create select {
+  width: 100%;
+  padding: 6px 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  display: block;
+}
+.create button{
+  background: #f1356d;
+  color: #fff;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+/* .editblog */
+
+.editblog{
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+}
+.editblog h1{
+  font-size: 20px;
+  color: #f1356d;
+  margin-bottom: 30px;
+}
+.editblog button{
+  background: #f1356d;
+  color: #fff;
+  margin-top: 5px;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer; 
+}
+.editblog button:hover{
+  color: #1717e9;
+}
+.editblog label {
+  text-align: left;
+  display: block;
+}
+.editblog input, .editblog textarea, .editblog select {
+  width: 100%;
+  padding: 6px 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  display: block;
 }

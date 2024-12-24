@@ -1,0 +1,34 @@
+{
+  "blogs": [
+    {
+      "id": "1",
+      "title": "The Future of Technology",
+      "body": "Technology is advancing at an incredible rate, revolutionizing the way we live, work, and interact. In the coming years, we will witness the rise of artificial intelligence, quantum computing, and autonomous systems, all of which will change the landscape of industries from healthcare to entertainment. AI-powered tools will automate many tasks that are currently done by humans, making processes more efficient and reducing the margin for error. Quantum computing, on the other hand, will solve problems that were once considered impossible to tackle, such as complex molecular modeling for drug discovery or climate prediction. Autonomous vehicles will make transportation safer and more efficient, reducing accidents caused by human error. As we embrace these innovations, it is essential to balance progress with ethical considerations to ensure technology benefits society as a whole, without leaving anyone behind or causing unintended harm.",
+      "author": "Jane Doe"
+    },
+    {
+      "id": "2",
+      "title": "Climate Change and Sustainability",
+      "body": "Climate change is one of the most pressing challenges facing our planet today. Rising global temperatures, extreme weather events, and melting ice caps are just some of the alarming signs that demonstrate the urgency of the situation. To combat this, we must embrace sustainable practices that minimize environmental impact and reduce greenhouse gas emissions. This includes transitioning to renewable energy sources like wind and solar, adopting energy-efficient technologies, and promoting a circular economy where waste is minimized. Governments, businesses, and individuals all have a role to play in addressing climate change. By making informed choices and advocating for policies that prioritize sustainability, we can mitigate the worst effects of climate change and protect the planet for future generations. It is imperative that we act now, as the window of opportunity to reverse environmental damage is rapidly closing, and only collective action can secure a sustainable future.",
+      "author": "John Smith"
+    },
+    {
+      "id": "36e1",
+      "title": "React JS",
+      "body": "React.js is a popular JavaScript library developed by Facebook for building dynamic user interfaces, particularly single-page applications. It allows developers to create reusable UI components, improving code efficiency. With its virtual DOM, React optimizes rendering performance, making applications fast and responsive. It’s widely used in modern web development.",
+      "author": "saini"
+    },
+    {
+      "id": "d6e3",
+      "title": "React",
+      "body": "React.js is a popular JavaScript library developed by Facebook for building dynamic user interfaces, particularly single-page applications. It allows developers to create reusable UI components, improving code efficiency. With its virtual DOM, React optimizes rendering performance, making applications fast and responsive. It’s widely used in modern web development.",
+      "author": "Ankur"
+    },
+    {
+      "id": "9344",
+      "title": "React",
+      "body": "React.js is a popular JavaScript library developed by Facebook for building dynamic user interfaces, particularly single-page applications. It allows developers to create reusable UI components, improving code efficiency. With its virtual DOM, React optimizes rendering performance, making applications fast and responsive. It’s widely used in modern web development.",
+      "author": "Ankur"
+    }
+  ]
+}
